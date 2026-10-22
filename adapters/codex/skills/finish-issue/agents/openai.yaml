@@ -1,0 +1,7 @@
+interface:
+  display_name: "Finish Issue"
+  short_description: "PR 전에 테스트·문서 점검, 변경 이력, 커밋까지 정리"
+  default_prompt: "PR을 올리기 전에 이번 작업을 마무리해줘."
+policy:
+  # false: Codex가 알아서 고르지 않고, 사용자가 $finish-issue로 부를 때만 실행한다 (커맨드처럼 동작)
+  allow_implicit_invocation: false
