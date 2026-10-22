@@ -114,7 +114,7 @@ my-project/
 
 프로젝트의 `CHANGELOG.md`와 릴리스 노트는 쓰임이 다릅니다. `CHANGELOG.md`는 프로젝트가 버전마다 무엇이 바뀌었는지 쌓아 가는 이력이고, 릴리스 노트는 두 버전 사이의 변경을 배포 단위로 모은 문서입니다. toolkit 폴더에 있는 `CHANGELOG.md`는 ai-agent-setup 자체의 이력이라 이 둘과 관계없습니다.
 
-## toolkit 원본 고치기
+## ai-agent-setup 원본 고치기
 
 세팅한 뒤 프로젝트에서 고친 내용 중 다른 프로젝트에도 필요한 개선은 toolkit 원본에도 반영합니다. 에이전트에게 "이 규칙은 ai-agent-setup 원본에도 반영해줘"라고 하면, 에이전트가 `AGENTS.md`의 "ai-agent-setup 원본 고치기" 절차대로 원본을 찾아 고칩니다.
 
